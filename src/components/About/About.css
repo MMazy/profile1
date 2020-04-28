@@ -1,0 +1,46 @@
+
+.round{
+    border-radius: 50%;
+}
+
+.vm{
+    vertical-align: middle;
+}
+
+.animate-left{
+    animation: slideInLeft 0.75s ease both;
+    animation-duration: 0.75s;
+    animation-timing-function: ease;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-fill-mode: both;
+    animation-play-state: running;
+    animation-name: slideInLeft;
+}
+.waypoint {
+    opacity: 0;
+}
+
+.float-container {
+    border: 3px solid #fff;
+    padding: 20px;
+}
+
+.float-child {
+    width: 50%;
+    float: left;
+    padding: 20px;
+    border: 2px solid;
+}  
+
+.wrap-father{
+    position: relative
+  }
+  
+  .wrap-child{
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -20%);
+  }
