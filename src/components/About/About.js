@@ -1,40 +1,33 @@
+
 import React from 'react';
 import Mprofile from './Mprofile.jpg'
 
 const About = () => {
     return(
-        <div>
-            <div id="header" className="fl w-100 bg-green">
-                <h1>ABOUT ME </h1>
+        <div id="about" >
+            <div id="container" className="about-bg" >
+                <div id="header" className="fl w-100 ">
+                    <h1>ABOUT ME </h1>
+                </div>
+                <div class="dt center pv4 pv5-m pv6-ns">
+                    
+                    {/* <div class="dtc v-btm">
+                        <article className="br3  ba-orange round dark-gray b--black-10 mv4 w-100  w-25-l mw6 shadow-5 center">
+                                    <img id='inputimage'  alt='' src={Mprofile} width='500px' height='auto'/>
+                                </article>
+                        </div>
+                    <div class="dtc v-btm pl3">
+                        <p class="lh-copy mv0">
+                        This text is aligned to the bottom, no matter what the height of the image is.
+                        </p>
+                    </div> */}
+                </div>
             </div>
 
-            <div className="vm float-container" height="200px">
-
-                <div id="imageHolder" className ="fl w-50 bg-white ">
-                 
-                    <article className="br3  ba-orange round dark-gray b--black-10 mv4 w-100  w-25-l mw6 shadow-5 center">
-                        <img id='inputimage' className="rounded  " alt='' src={Mprofile} width='500px' height='auto'/>
-                    </article>
-                </div>
-
-                 <div id="aboutDescription" className="fl w-50 bg-blue wrap-father">
-                    <div className="wrap-child">
-                           <article class="center mw5 mw6-ns hidden ba mv4 ">
-                                <div class="pa3 bt tj ">
-                                    <p class="f4 f5-ns lh-copy measure mv0">
-                                    I'm a full-stack developer with a wide variety of experience in my field. 
-                                    My skills rang from ASP.Net, C#.Net, VB.Net, Html5, Css3, JavaScript to 
-                                    MS.Sql server, PL/SQL Oracle, Postgresql and React.js,Redux, Node.js , Express.js.
-                                    
-                                    </p>
-                                </div>
-                            </article> 
-                    </div>
-                </div>
-                
-            </div>
+           
         </div>
     );
 }
 
 export default About;
+

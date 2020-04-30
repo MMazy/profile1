@@ -1,0 +1,8 @@
+.bg-img{
+    background-image:url(http://i.giphy.com/5lF3pQpdquCBy.gif);
+}
+
+.bg-cp{
+    clip-path: polygon( 50% 0, 100% 100%, 100% 100% , 0 100%);
+}
+

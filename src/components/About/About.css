@@ -44,3 +44,25 @@
     left: 25%;
     transform: translate(-50%, -20%);
   }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.flex-row{
+    flex-direction: row;
+}
+
+.about-bg{
+    height: 100%;
+    position: relative;
+    background-color: gray;
+    background-size: cover;
+    clip-path: polygon( 0 0 , 100% 0%, 100% 75% , 0% 100%);
+    margin: 0;
+    padding: 0;
+}
+ 
